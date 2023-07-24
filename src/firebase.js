@@ -3,12 +3,13 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const app = firebase.initializeApp({
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAylIMX22qH1h4ZtpUD1yHckus3I4UgAdM",
+  authDomain: "project-tracker-2-cedde.firebaseapp.com",
+  projectId: "project-tracker-2-cedde",
+  storageBucket: "project-tracker-2-cedde.appspot.com",
+  messagingSenderId: "646745285794",
+  appId: "1:646745285794:web:4e5ec994cd821fd6a023fb",
+  measurmentId: "G-CNZ32D0P2S"
 });
 
 export default app;
